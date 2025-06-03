@@ -45,8 +45,7 @@ The Python script performs the following operations:
 ## Setup Instructions
 
 1. Start the HBase container using Docker Compose.
-2. Install Python dependencies listed in `requirements.txt`.
-3. Run the `hbase_crud.py` script to perform the operations.
+2. Run the `hbase_crud.py` script to perform the operations.
 
 ## Notes
 
