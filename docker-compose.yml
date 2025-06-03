@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hbase:
+    image: dajobe/hbase
+    ports:
+      - "16010:16010"   # Web UI
+      - "9090:9090"     # Thrift API (for Python clients)
+      - "2181:2181"     # Zookeeper
+    environment:
+      - HBASE_MANAGES_ZK=true
